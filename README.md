@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Pu-tfUhR)
 # Bienvenidos a la Tarea de HTML y CSS
 
 ¡Hola a todos!
@@ -84,3 +85,16 @@ section {
 - Experimenta con combinaciones de colores que sean agradables a la vista.
 
 ¡Buena suerte y diviértanse creando su CV!
+
+## Imagenes de las actividades.
+### Frogy
+<img src ![Screenshot (6)](https://github.com/user-attachments/assets/83ef4847-3f48-4246-83b0-3bb7aaf6f056)>
+
+### Carrot
+<img src ![Screenshot (7)](https://github.com/user-attachments/assets/54a29c32-a9b8-42c0-907d-4af63a9d2036)>
+
+## Link de mi hoja de vida.
+https://dsaw-2025-i.github.io/my-cv-part-c-frog-carrots-deploy-juanfe7/
+
+
+

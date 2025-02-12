@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    text-align: center; /* Centra todo el contenido */
+}
+
+/* Estilo del header */
+header {
+    background-color: #2b2db9;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* Estilo de las secciones */
+section {
+    max-width: 800px; /* Limita el ancho para pantallas grandes */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Para listas */
+ul {
+    list-style-type: square;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* 📱 Celulares (max 480px) */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    header {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* 📲 Tablets (481px a 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    section {
+        width: 80%;
+    }
+    
+    header {
+        font-size: 1.5rem;
+    }
+}
+
+/* 💻 PC (769px a 1080px) */
+@media (min-width: 769px) and (max-width: 1080px) {
+    section {
+        width: 70%;
+    }
+}
+
+/* 🖥️ Pantallas grandes (1081px en adelante) */
+@media (min-width: 1081px) {
+    section {
+        width: 60%;
+    }
+}
