@@ -1,75 +1,74 @@
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 20px;
     margin: 0;
-    line-height: 1.6;
+    padding: 0;
+    background-color: #f7f7f7;
+    text-align: center; /* Centra todo el contenido */
 }
 
-
-h1 {
-    color: #0077cc;
+/* Estilo del header */
+header {
+    background-color: #2b2db9;
+    color: white;
     text-align: center;
-    margin-bottom: 10px;
+    padding: 1.5rem;
 }
 
-h3 {
-    color: #555;
-    border-bottom: 2px solid #0077cc;
-    padding-bottom: 5px;
-    margin-top: 20px;
-}
-
-
+/* Estilo de las secciones */
 section {
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limita el ancho para pantallas grandes */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-
+/* Para listas */
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: square;
 }
 
-li {
-    margin-bottom: 8px;
-}
+/* RESPONSIVE DESIGN */
 
-
-p {
-    margin-bottom: 10px;
-}
-
-/* Estilo para tablet (481px a 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
-    section {
-        width: 90%;
+/* 📱 Celulares (max 480px) */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    header {
+        font-size: 1.2rem;
+        padding: 1rem;
     }
 
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* 📲 Tablets (481px a 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    section {
+        width: 80%;
+    }
+    
     header {
         font-size: 1.5rem;
     }
 }
 
-/* Estilo para PC (769px a 1080px) */
+/* 💻 PC (769px a 1080px) */
 @media (min-width: 769px) and (max-width: 1080px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     section {
         width: 70%;
     }
 }
 
-/* Estilo para pantallas grandes (1080px en adelante) */
+/* 🖥️ Pantallas grandes (1081px en adelante) */
 @media (min-width: 1081px) {
     section {
         width: 60%;
